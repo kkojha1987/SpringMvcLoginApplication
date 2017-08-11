@@ -1,0 +1,210 @@
+/*
+HTML 5 Template Name: Basic 79
+File: Layout CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
+
+body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#979797; background-color:#FFFFFF;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{outline:none; text-decoration:none;}
+
+code{font-weight:normal; font-style:normal; font-family:Georgia, "Times New Roman", Times, serif;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid #D6D6D6; text-align:center;}
+.imgl{float:left; margin:0 15px 15px 0; clear:left;}
+.imgr{float:right; margin:0 0 15px 15px; clear:right;}
+
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+address, article, aside, figcaption, figure, footer, header, nav, section{display:block; margin:0; padding:0;}
+
+q{display:block; padding:0 10px 8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+q:before{content:'“ '; font-size:26px;}
+q:after{content:' „'; font-size:26px; line-height:0;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:960px; margin:0 auto; padding:0; text-align:left;}
+
+.row1, .row1 a{color:#979797; background-color:#FFFFFF;}
+.row2{color:#979797; background-color:#FFFFFF;}
+.row2 a{color:#FF9900; background-color:#FFFFFF;}
+.row3{border-top:1px solid #DEDEDE;}
+.row3, .row3 a{color:#979797; background-color:#FFFFFF;}
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#header, #container, #footer{display:block; width:960px;}
+
+nav ul{margin:0; padding:0; list-style:none;}
+
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:16px; font-weight:bold; font-style:normal; line-height:normal; text-transform:uppercase;}
+
+address{font-style:normal;}
+
+blockquote, q{display:block; padding:8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+blockquote:before, q:before{content:'“ '; font-size:26px;}
+blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
+
+.one_third, .two_third, .three_third{display:block; float:left; margin:0 30px 0 0;}
+.one_third{width:300px;}
+.two_third{width:630px;}
+.three_third{width:960px; float:none; margin-right:0; clear:both;}
+.lastbox{margin-right:0;}
+
+/*----------------------------------------------Header-------------------------------------*/
+
+#header{}
+
+#header #hgroup{padding:20px 0 0 0; float:left;}
+#header #hgroup h1, #header #hgroup h2{font-weight:normal; text-transform:none;}
+#header #hgroup h1{font-size:36px;}
+#header #hgroup h2{font-size:13px;}
+
+#header nav{display:block; float:right; margin:20px 0 0 0; padding:20px 0;}
+#header nav ul{}
+#header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
+#header nav li.last{margin-right:0;}
+#header nav li a{padding:5px 8px; color:#FFFFFF; background-color:#666666;}
+#header nav li a:hover{color:#FF9900; background-color:#FFFFFF;}
+
+/*----------------------------------------------Content Area-------------------------------------*/
+
+#container{padding:30px 0;}
+#container section{display:block; width:100%; margin:0 0 30px 0; padding:0;}
+#container .last{margin:0;}
+#container .more{text-align:right;}
+
+/* ------Shout-----*/
+
+#container #shout{margin-bottom:50px; padding:30px 0; border-top:1px solid #DEDEDE; border-bottom:1px solid #DEDEDE;}
+#container #shout h1{font-size:56px; font-weight:normal; font-style:italic; text-transform:uppercase; text-align:center;}
+#container #shout p{font-size:16px; margin-bottom:0; padding-bottom:0; line-height:1.8em;}
+
+/* ------services-----*/
+
+#container #services{margin-bottom:50px; line-height:1.6em;}
+#container #services article{}
+#container #services article h2{font-size:14px; margin-bottom:15px;}
+#container #services article p{margin:0; padding:0;}
+#container #services article img{float:left; width:80px; height:80px; margin:0 10px 10px 0; padding:4px; border:1px solid #DEDEDE;}
+#container #services article footer{margin:10px 0 0 0;}
+
+/*----------------------------------------------Footer-------------------------------------*/
+
+#footer{padding:20px 0;}
+#footer p{margin:0; padding:0;}
+
+
+
+/*==============================================================================*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/****** LOGIN MODAL ******/
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+
+.login-help{
+  font-size: 12px;
+}
