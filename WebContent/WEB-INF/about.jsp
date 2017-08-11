@@ -19,7 +19,7 @@
     </div>
     <nav>
       <ul>
-        <li><a href="${pageContext.request.contextPath}/welcome">home</a></li>
+        <li><a href="#">home</a></li>
         <li><a href="${pageContext.request.contextPath}/about">about us</a></li>
         <li><a href="#">contact</a></li>
         <li><a href="#">my account</a></li>
@@ -33,7 +33,7 @@
   <div id="container" class="clear">
     <!-- content body -->
     <section id="shout">
-      <h1>Lorum ipsum dolor</h1>
+      <h1>About Page</h1>
       <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt. Namjusto cras urna urnaretra lor urna neque sed quis orci nulla laoremut vitae doloreet condimentumst.</p>
     </section>
     <!-- main content -->
@@ -47,7 +47,7 @@
       </article>
       <!-- article 2 -->
       <article class="one_third">
-        <h2>Lorum ipsum dolor</h2>
+        <h2>About Page</h2>
         <img src="${pageContext.request.contextPath}/resources/images/demo/80x80.gif" alt="">
         <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt. Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet.</p>
         <footer class="more"><a href="#">Read More &raquo;</a></footer>

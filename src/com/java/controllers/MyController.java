@@ -44,4 +44,11 @@ public class MyController {
 		return "loginPage";
 		}
 	}
+	
+	@RequestMapping(value="about", method=RequestMethod.GET)
+	public String aboutPage(ModelMap model)
+	{
+		//model.put("account", new Account());
+		return "about";
+	}
 }
