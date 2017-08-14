@@ -9,6 +9,7 @@
 	<configs>
 		<config>WebContent/WEB-INF/dispatcher-servlet.xml</config>
 		<config>WebContent/WEB-INF/Spring-Configuration.xml</config>
+		<config>src/spplication-context.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>

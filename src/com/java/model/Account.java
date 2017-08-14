@@ -1,5 +1,6 @@
 package com.java.model;
 
+
 public class Account {
 
 	public String userName;
